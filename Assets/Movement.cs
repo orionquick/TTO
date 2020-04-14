@@ -54,7 +54,7 @@ public class Movement : MonoBehaviour
                 else if (lookAngle == 180)                      animator.Play("north_walk");
             }
             else {
-                speed = walkSpeed * 0.6f;
+                speed = walkSpeed * 0.8f;
 
                 if (lookAngle == 0 || lookAngle == 360)         animator.Play("south_walk_reverse");
                 else if (lookAngle == 45 || lookAngle == 315)   animator.Play("southeast_walk_reverse");
